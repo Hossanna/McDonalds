@@ -1,0 +1,292 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+}
+.flex{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    line-height: 2;
+}
+ul li:hover{
+    font-weight: 800;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+.blue{
+    color: blue;
+    text-decoration: underline;
+
+}
+
+nav{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+
+}
+.nav1{
+    justify-content: space-between;
+    width: 70vw;
+
+}
+.nav1 ul{
+    width: 35%;
+    justify-content: space-between;
+
+}
+.nav2{
+    width: 65vw;
+
+}
+.nav2 ul {
+    justify-content: space-between;
+
+}
+nav button{
+    width: 8vw;
+    padding:  8%;
+    background-color: #f7b944;
+    border: none;
+    line-height: 1.5;
+    border-radius: 5px;
+
+}
+
+header{
+    border-top: 1px solid #7cacf800;
+    border-bottom: 1px solid #7cacf800;
+    box-shadow: 3px 0px 5px 4px #8a98af26;
+    margin: 0% auto;
+    
+
+}
+header .div{
+    margin: auto;
+    width: 85vw;
+
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin: 5% auto;
+}
+
+.individual-div{
+    margin: 5% auto;
+}
+
+main button{
+    width: fit-content;
+    padding:  2% 7%;
+    background-color: #f7b944;
+    border: none;
+    line-height: 1.5;
+    border-radius: 5px;
+}
+.r-btn{
+    width: 15vw;
+    padding:  5% 7%;
+    margin-bottom: 25%;
+    cursor: pointer;
+
+}
+main .img{
+    width: 60%;
+    height: 40vh;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
+.img-delish{
+    width: 70%;
+    height: 50vh;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
+.big-div{
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5%;
+}
+.small-div{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+
+.passion h2{
+    font-size: 2.5em;
+    margin: 2% 0;
+}
+.passion{
+    margin: 5% 0;
+
+}
+
+.small-div img{
+    width: 100%;
+    height: 230px;
+}
+
+main h1{
+    font-size: 3em;
+    text-align: center;
+    margin: 5% 0;
+}
+.d{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.d h2{
+    font-size: 2.5em;
+    margin: 0% 0 5%;
+
+}
+.d p{
+    margin: 5% 0;
+}
+.p h2{
+    font-size: 2em;
+    margin: 5% 0;
+}
+.p p{
+    line-height: 1.5;
+    margin: 0% 0 5%;
+}
+
+.tiny-p{
+    font-size: .7em;
+}
+
+.aboutfood{
+    margin-bottom: 5%;
+}
+
+.points{
+    width: 50%;
+}
+.points h2{
+    font-weight: 200;
+    font-size: 2.5em;
+    margin: 5% 0;
+}
+.points div{
+    width: 95%;
+}
+.points p{
+    line-height: 1.5;
+    margin: 0% 0 5%;
+}
+.points img{
+    width: 95%;
+    height: 50vh;
+}
+
+.rewards-div{
+    margin-bottom: 5%;
+}
+
+.faq-div{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 80vw;
+    margin: auto auto 5%;
+}
+
+.faqs h2{
+    font-weight: 200;
+    font-size: 2.5em;
+    margin: 0% 0 2%;
+}
+.faqs p{
+    line-height: 1.5;
+    margin: 0% 0 2%;
+    font-size: 1.2em;
+}
+
+.grid-div{
+    display: grid;
+    width: 80vw;
+    margin: 0 auto 10%;
+    gap: 5%;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+
+}
+.grid-item{
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center; 
+}
+
+footer .div{
+    width: 80vw;
+    margin:  auto;
+    justify-content: space-between;
+}
+.bold{
+    font-weight: 800;
+    font-size: 1.1em;
+    margin-bottom: 4%;
+}
+.logos{
+    width: 80vw;
+    margin: 5% auto;
+    padding-bottom: 5%;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+
+}
+.footer-logo{
+    width: 30%;
+    justify-content: space-between;
+}
+
+.footer-ul-div{
+    width: 80vw;
+    margin: auto;
+}
+.footer-ul-div p{
+    text-align: right;
+    width: 20%;
+}
+
+.ul-div{
+    justify-content: space-between;
+}
+
+.ul-div img{
+    width: 3%;
+    height: 35px;
+}
+
+.ul-div ul{
+    width: 55%;
+    justify-content: space-between;
+}
+.footer-ul-div ul:nth-child(2){
+    margin: 2% 0;
+    width: 35%;
+    justify-content: space-between;
+}
